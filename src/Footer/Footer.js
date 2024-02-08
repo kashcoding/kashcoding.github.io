@@ -1,4 +1,4 @@
-import { FaGithub, FaBehanceSquare, FaLinkedin, FaTwitterSquare, FaDribbbleSquare } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdOutlineEmail } from 'react-icons/md';
 
 function Contact(props) {

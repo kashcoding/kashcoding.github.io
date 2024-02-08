@@ -191,17 +191,35 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
 
 	.section {
 		display: flex;
 		flex-direction: column;
-		font-size: 3rem;
+		align-items: center;
+		font-size: 1.5rem;
+		width: 60%;
+		line-height: 3rem;
+
+		li {
+			span {
+				display: inline-flex;
+				align-items: center;
+
+				a {
+					display: inline-flex;
+					color: black;
+					text-decoration: none;
+					margin-left: 4px;
+					&:hover {
+						color: grey;
+					}
+				}
+			}
+		}
 	}
 
 	h1 {
-		padding: 1rem;
-		margin: 1rem;
+		font-size: 3rem;
 	}
 }
 
@@ -225,7 +243,6 @@ a {
 }
 
 .menu {
-	height: 100vh;
 	background-color: black;
 	overflow: auto;
 
@@ -241,8 +258,6 @@ a {
 }
 
 .contact {
-	position: relative;
-	top: 3vh;
 	overflow: auto;
 
 	.section {
