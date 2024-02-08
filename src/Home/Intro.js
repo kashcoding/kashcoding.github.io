@@ -15,7 +15,7 @@ function Intro() {
 		<div className='intro container'>
 			<div className='main'>
 				<Container className='segment'>
-					<img className='avatar' alt='' src='/assets/kasia.png' />
+					<img className='avatar' alt='' src='/assets/kasia.jpeg' />
 				</Container>
 				<Container className='segment heading'>
 					<h2>
