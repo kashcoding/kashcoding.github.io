@@ -11,12 +11,10 @@ function About() {
 					<li>Passionate about creating beautiful and functional applications</li>
 					<li>Enthusiastic about learning new things in all areas of my life</li>
 					<li>
-						<span>
-							When I'm not coding, I'm crafting
-							<a href='https://www.instagram.com/handmadebykash' target='_blank' rel='noreferrer'>
-								<FaInstagram />
-							</a>
-						</span>
+						When I'm not coding, I'm crafting
+						<a href='https://www.instagram.com/handmadebykash' target='_blank' rel='noreferrer'>
+							<FaInstagram />
+						</a>
 					</li>
 					<li>Otherwise found cooking, doing yoga or travelling.</li>
 				</ul>

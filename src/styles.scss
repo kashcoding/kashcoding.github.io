@@ -113,6 +113,7 @@ a {
 		display: flex;
 		justify-items: space-around;
 		align-items: center;
+		flex-wrap: wrap;
 	}
 
 	.segment {
@@ -213,21 +214,22 @@ a {
 		width: 60%;
 		line-height: 3rem;
 
-		li {
-			span {
-				display: inline-flex;
-				align-items: center;
+		a {
+			display: inline-flex;
+			color: #151515;
+			text-decoration: none;
+			margin-left: 4px;
+			vertical-align: middle;
 
-				a {
-					display: inline-flex;
-					color: #151515;
-					text-decoration: none;
-					margin-left: 4px;
-					&:hover {
-						color: #aaaaaa;
-					}
-				}
+			&:hover {
+				color: #aaaaaa;
 			}
+		}
+
+		@media screen and (max-width: 600px) {
+			width: 70%;
+			line-height: 2rem;
+			font-size: 1rem;
 		}
 	}
 
@@ -267,6 +269,13 @@ a {
 		display: flex;
 		flex-direction: column;
 		font-size: 3rem;
+
+		@media screen and (max-width: 600px) {
+			font-size: 2rem;
+		}
+		@media screen and (max-width: 300px) {
+			font-size: 1.5rem;
+		}
 	}
 }
 
@@ -280,5 +289,12 @@ a {
 
 	.heading {
 		font-size: 3rem;
+
+		@media screen and (max-width: 600px) {
+			font-size: 2rem;
+		}
+		@media screen and (max-width: 300px) {
+			font-size: 1.5rem;
+		}
 	}
 }
