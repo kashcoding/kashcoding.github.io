@@ -10,7 +10,16 @@ const portfolio = [
 		type: 'solo',
 		time: '5 days',
 		img: '/assets/GeoKASH.jpeg',
-		url: 'https://kashcoding.github.io/countries-react/',
+		url: 'https://kash.codes/countries-react/',
+	},
+	{
+		name: 'Mixcloud Clone',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+		type: 'group',
+		time: '1 week',
+		img: '/assets/mixcloud.jpeg',
+		url: 'https://kash.codes/mixcloud-clone/',
 	},
 	{
 		name: 'More Than Metrics',
@@ -30,15 +39,14 @@ const portfolio = [
 		img: '/assets/WFW.jpeg',
 		url: 'https://world-for-women-12345.herokuapp.com/',
 	},
-
-	{
-		name: 'Traveloquent',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-		type: 'solo',
-		img: '/assets/Traveloquent.jpeg',
-		url: 'https://www.traveloquent.com',
-	},
+	// {
+	// 	name: 'Traveloquent',
+	// 	description:
+	// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+	// 	type: 'solo',
+	// 	img: '/assets/Traveloquent.jpeg',
+	// 	url: 'https://www.traveloquent.com',
+	// },
 ];
 
 function Work() {

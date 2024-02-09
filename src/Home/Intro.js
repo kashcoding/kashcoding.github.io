@@ -33,7 +33,7 @@ function Intro() {
 				</Container>
 				<Container className='segment'>
 					<h4>INTRODUCTION</h4>
-					<p>Full stack software developer passionate about creating people-oriented solutions</p>
+					<p>Full stack software engineer passionate about creating people-oriented solutions</p>
 					<Scroll to='bottom' smooth={true}>
 						<h6>LEARN MORE ↓</h6>
 					</Scroll>
