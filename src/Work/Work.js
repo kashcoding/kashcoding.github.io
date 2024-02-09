@@ -54,11 +54,9 @@ function Work() {
 				<div className='item card'>
 					<p>{portfolio[i].name.toUpperCase()}</p>
 					<img alt={portfolio[i].name} src={portfolio[i].img} />
-					<h6>
-						<a href={portfolio[i].url} target='_blank' rel='noreferrer'>
-							LEARN MORE
-						</a>
-					</h6>
+					<a href={portfolio[i].url} target='_blank' rel='noreferrer'>
+						<h6>LEARN MORE</h6>
+					</a>
 				</div>
 			);
 		});

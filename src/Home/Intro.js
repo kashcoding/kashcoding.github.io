@@ -21,11 +21,9 @@ function Intro() {
 					<h2>
 						KASIA DUTCH<span className='period'>.</span>
 					</h2>
-					<p>
-						<a href='https://www.github.com/kashcoding' target='_blank' rel='noreferrer'>
-							GITHUB
-						</a>
-					</p>
+					<a href='https://www.github.com/kashcoding' target='_blank' rel='noreferrer'>
+						<p>GITHUB </p>
+					</a>
 					<a href='https://www.linkedin.com/in/k-dutch' target='_blank' rel='noreferrer'>
 						<p>LINKEDIN</p>
 					</a>

@@ -23,9 +23,9 @@ function Contact() {
 						<MdOutlineEmail style={{ position: 'relative', top: '4px' }} /> Email: kasiadutch@hotmail.co.uk
 					</p>
 				</a>
-				<h1 style={{ textAlign: 'center' }} onClick={(e) => handleWorkClick(e)}>
-					WORK.
-				</h1>
+			</div>
+			<div className='heading'>
+				<h1 onClick={(e) => handleWorkClick(e)}>WORK.</h1>
 			</div>
 			<Footer />
 		</div>
